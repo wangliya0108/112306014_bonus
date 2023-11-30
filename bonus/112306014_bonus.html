@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>112306014_bonus</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    #container {
+    	width: 50%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	background-color: #fff;
+    	padding: 20px;
+    	border-radius: 10px;
+    	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+    	display: block;
+    	margin-bottom: 8px;
+    	font-weight: bold;
+    }
+
+    input,
+    textarea {
+    	width:100%;
+    	padding: 8px;
+    	margin-bottom: 16px;
+    	box-sizing: border-box;
+    	border: 1px solid #ccc;
+    	border-radius: 5px;
+    }
+
+
+    textarea {
+    	resize: none; /* Make textarea not resizable */
+    }
+
+    input[type="submit"] {
+    	background-color: #4caf50;
+    	color: #fff;
+    	border: none;
+    	padding: 10px 20px;
+    	font-size: 16px;
+    	cursor: pointer;
+    	border-radius: 5px;
+    }
+
+    img {
+    	width: 100%;
+    	height: auto;
+    	border-radius: 5px;
+    	margin-bottom: 16px;
+    }
+    .half-width {
+    	width: calc(50% - 12px);
+    	display: inline-block;
+    }
+
+    #studentID{
+    	width: calc(50% - 12px);
+    }
+</style>
+</head>
+<body>
+	<center><h1><em><strong>BONUS HW</strong></em></h1></center>
+
+	<div id="container">
+
+		<form action="#" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder = "王莉雅" required>
+
+			<label for="studentID"  class ="half-width">Student ID:</label>
+			<label for="age"  class ="half-width">Age:</label>
+
+
+			<input type="text" id="studentID" name="studentID" placeholder = "112306014"  required>
+			<input type="age" id="age" name="age" placeholder = "19" class ="half-width"  required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" placeholder = "112306014@g.nccu.edu.tw" name="email" required>
+
+			<label for="Textarea">Textarea</label>
+			<textarea id="Textarea" name="Textarea" rows="4" placeholder = "Believe in yourself" required></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+		<img src="photo.jfif" alt="Form Image">
+  </div>
+
+</body>
+</html>
